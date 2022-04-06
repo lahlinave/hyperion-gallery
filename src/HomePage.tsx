@@ -5,9 +5,8 @@ import { Col, Row } from "react-bootstrap";
 import { Footer } from "./components/footer";
 import styles from './Homepage.module.css'
 import Image from 'next/image'
-const myLoader = ({ src }:{src:any}) => {
-  return `${src}`
-}
+import {imageLoader} from '../loader'
+
 function HomePage() {
   return (
     <div className="App">
@@ -16,10 +15,12 @@ function HomePage() {
         <Row>
           <Col className={styles['section-homepage']}>
             {/* <RandomToken/> */}
-            <div className={styles.homepage_image_full}>
-              <Image src='/repop-homepage-small.jpeg'loader={myLoader} layout="responsive" width={'1280'} height={'1920'}></Image>
+            {/* <div className={styles['full-background']}  style={{'width':"100%","backgroundImage": "url('/repop-homepage-small.jpeg')"}} > */}
+            <div>
+              {/* <Image src='/repop-homepage-small.jpeg' loader={imageLoader} unoptimized={true} layout="responsive" width={'1280'} height={'1920'}></Image> */}
+              <img style={{width:'100%'}} className='responsive-image' src={'/repop-homepage-small.jpeg'} />  
             </div>
-            {/* <img className='homepage-image-full' src={'../repop-homepage-small.jpeg'} /> */}
+            
           </Col>
         </Row>
         

@@ -25,6 +25,14 @@ export default function AboutRoute() {
 
               <PageTitle>About</PageTitle>
               <div>
+                <p>
+                learn about lahli navé and RePop soon…
+                </p>
+                <p>
+                lahlinave@protonmail.com
+                </p>
+              </div>
+              {/* <div>
                 <p>Hyperion is a collection of 1024 unique NFTs each containing a 4K image render and a ‘live view’ real
                   time WebGL animation.</p>
               </div>
@@ -105,7 +113,7 @@ export default function AboutRoute() {
                   </ul>
                 
                 </p>
-              </div>
+              </div> */}
             </Col>
             <Col/>
           </Row>

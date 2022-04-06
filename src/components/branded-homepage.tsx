@@ -11,15 +11,15 @@ export const BrandedHomepage = () => {
         <Col xs={0} sm={0}/>
         <Col className={'d-inline-block text-center'}>
           <span>
-            <img
-              alt=""
-              src="/hyperion-logo2.svg"
-              width="150"
-              height="150"
-              className="d-inline-block justify-content-center"
-            />
+          <img
+            alt=""
+            src="/logo.svg"
+            width="300"
+            height="300"
+            className={"d-inline-block align-top" }
+          />
             <br />
-            <h1 className={'Header-title extra-large-logo d-inline-block justify-content-center'}>RePop</h1>
+            {/* <h1 className={'Header-title extra-large-logo d-inline-block justify-content-center'}>RePop</h1> */}
           </span>
 
         </Col>
@@ -32,29 +32,38 @@ export const BrandedHomepage = () => {
         <Col sm={0} md={1} lg={2} xl={2} xxl={2}/>
         <Col sm={12} md={5} lg={4} xl={4} xxl={4} className={'align-self-center'}>
           <p>
-            Hyperion is a multidimensional exploration of complex movement in generative art, created entirely with
-            code.
-
-            It is inspired by the infinite resolution of motion— from atoms, to cells, to planetary maneuvers: every
-            point in time is unique.
-
-            Hyperion, too, captures this dynamic spectrum.
+          RePop
+          </p>
+<p>
+Our childhood sense of imagination is unique. Do you remember yours?
+</p>
+<p>
+Over time, our minds populate with information from the world around us and our sense of imagination erodes.
+</p>
+<p>
+Alcohol ink, the medium of RePop, creates guidelines of an unfiltered, barely controllable flow of energy states from abstractly, individually felt by the artist, to collectively tangible and fully shareable by all.
+</p>
+<p>
+Such vulnerability creates genuine abstract art that touches people in unique ways based on the perspective, mental state and personal experiences and belief systems of the beholder, back in the realm of their own being, where things are fully felt, and often elude accurate description. RePop becomes a language of expression and interpretation; it is the bridge that allows for the sharing of emotions where so many other mediums fail.
+</p>
+<p>
+Energy that is transferred and transmuted in this way, co-creating with forces so subtle to be regularly perceived, is indeed a form of alchemy.
+</p>
+<p>
+RePop, then, strives for a repopulation of the imagination with color, inspiration, creativity and emotion, a defiance of the population of our minds by imagery in a pretty crazy world.
+</p>
+<p>
+lahli, the artist, and her RePop team thank you for being a part of this journey, and we hope it transfixes you and speaks to you as intimately as you allow it to.
+</p>
+<p>
+Thank you for being here with us now.
           </p>
 
-          <p>
-            Opening a portal to the next chapter of what NFTs are, this collection is being created infinitely before
-            your eyes.
-
-            Each NFT combines mathematical representations of shape, color, and movement vectors, that together create
-            art of a completely unique nature.
-
-            Collectors and viewers experience the NFT in motion, rendered in any resolution.
-          </p>
         </Col>
         <Col sm={12} md={5} lg={5} xl={5} xxl={5}>
           <img
             alt=""
-            src="/hyperion-collage-sm.png"
+            src="/repop-about-small.jpeg"
             width={'100%'}
             height={'auto'}
             className="d-inline-block justify-content-center"
@@ -72,7 +81,7 @@ export const BrandedHomepage = () => {
         </Col>
         <Col/>
       </Row>
-      <Row>
+      {/* <Row>
 
         <Col sm={0} md={1} lg={1} xl={1} xxl={1}/>
 
@@ -104,7 +113,7 @@ export const BrandedHomepage = () => {
           </p>
         </Col>
         <Col xs={1} sm={1} md={0} lg={2} xl={2} xxl={2}/>
-      </Row>
+      </Row> */}
 
 
       <Row>
@@ -118,7 +127,7 @@ export const BrandedHomepage = () => {
         <Col/>
 
 
-        <Col sm={12} md={5} lg={4} xl={4} xxl={4} className={'text-left align-self-center'}>
+        {/* <Col sm={12} md={5} lg={4} xl={4} xxl={4} className={'text-left align-self-center'}>
           <br/><br/>
           <h3>
             About the team
@@ -138,7 +147,7 @@ export const BrandedHomepage = () => {
           {/*  Collectors of Hyperion will gain early access to the generative art platform being built by the Hyperion*/}
           {/*  team.*/}
           {/*</p>*/}
-        </Col>
+        {/* </Col> */ }
 
         <Col/>
       </Row>

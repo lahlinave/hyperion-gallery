@@ -6,21 +6,21 @@ import styles from "./header.module.css"
 export const Header = () => {
   return (<>
 
-    <Navbar bg="dark" expand="lg" fixed="bottom" className={styles['navbar-with-border']}>
+    <Navbar bg="black" expand="lg" fixed="bottom" className={styles['navbar-with-border']}>
       <Container>
 
         <Navbar.Brand href="/">
           <img
             alt=""
-            src="/hyperion-logo2.svg"
-            width="75"
-            height="70"
-            className="d-inline-block align-top"
+            src="/logo.svg"
+            width="100"
+            height="100"
+            className={"d-inline-block align-top" + styles['white-logo']}
           />{' '}
-          <div className={'d-inline-block Header-title-container'}>
+          {/* <div className={'d-inline-block Header-title-container'}>
             <h2 className={'Header-title'}>RePop</h2>
             <h3 className={'Header-subtitle'}>on Stargaze</h3>
-          </div>
+          </div> */}
 
         </Navbar.Brand>
 
