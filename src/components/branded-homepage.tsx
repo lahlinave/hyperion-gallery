@@ -19,7 +19,7 @@ export const BrandedHomepage = () => {
               className="d-inline-block justify-content-center"
             />
             <br />
-            <h1 className={'Header-title extra-large-logo d-inline-block justify-content-center'}> Hyperion</h1>
+            <h1 className={'Header-title extra-large-logo d-inline-block justify-content-center'}>RePop</h1>
           </span>
 
         </Col>

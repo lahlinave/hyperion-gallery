@@ -20,7 +20,12 @@ body {
   /*sans-serif;*/
   /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
-  background-color: #000;
+  background-color: #212528;
+}
+
+.navbar-nav
+li, ul, h1, h2, h3, h4, h5, h6, p, .Header-title-container, .nav-link{
+  color: gainsboro;
 }
 
 html,
@@ -61,7 +66,7 @@ code {
   font-family: 'Roboto Mono', monospace;
 }
 .Token-link{
-  color: #000;
+
   text-decoration: none;
   font-size: 0.7rem;
   font-family: 'Roboto Mono', monospace;
@@ -74,10 +79,10 @@ button.btn{
   font-family: 'Roboto Mono', monospace;
 }
 a.page-link{
-  color: black;
+  
 }
 .Header-title-container{
-  color: #000;
+  
   text-align: left;
   font-family: 'Roboto Mono', monospace;
 }

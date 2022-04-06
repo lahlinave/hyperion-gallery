@@ -1,20 +1,23 @@
 import React from 'react';
 import { Header } from "./components/header";
-import { RandomToken } from "./components/random-token";
-import { AllMintedGallery } from "./components/all-minted-gallery";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
-import { BrandedHomepage } from "./components/branded-homepage";
 import { Footer } from "./components/footer";
+import styles from './Homepage.module.css'
+import Image from 'next/image'
 
 function HomePage() {
   return (
     <div className="App">
       <Header/>
-      <Container fluid>
+      <Container fluid style={{paddingLeft:'0',paddingRight:'0'}}>
         <Row>
-          <Col className={'section-homepage'}>
-            <RandomToken/>
+          <Col className={styles['section-homepage']}>
+            {/* <RandomToken/> */}
+            <div className={styles.homepage_image_full}>
+              <Image src='/repop-homepage-small.jpeg' layout="responsive" width={'1280'} height={'1920'}></Image>
+            </div>
+            {/* <img className='homepage-image-full' src={'../repop-homepage-small.jpeg'} /> */}
           </Col>
         </Row>
         
@@ -28,7 +31,7 @@ function HomePage() {
         <Row>
           <Col>
             {/*<AllMintedGallery />*/}
-            <BrandedHomepage/>
+            {/* <BrandedHomepage/> */}
           </Col>
         </Row>
         

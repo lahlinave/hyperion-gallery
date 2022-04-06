@@ -15,8 +15,8 @@ export default function GalleryRoute() {
       <Header />
       <main style={{ padding: "1rem 0" }}>
         <Container>
-        <PageTitle>Gallery</PageTitle>
-        <AllMintedGallery />
+        <PageTitle>Gallery Reveal Imminent...</PageTitle>
+        {/* <AllMintedGallery /> */}
         </Container>
       </main>
       <Footer />

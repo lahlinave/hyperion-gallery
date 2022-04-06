@@ -9,7 +9,7 @@ export const Footer = ()=>{
       <footer>
   <Row>
     <Col className={'text-center'}>
-      <p className={'footer-text'}> Created with 💙 by skymagic.eth</p>
+      <p className={'footer-text'}> Created with 💙 by nova.eth</p>
     </Col>
   </Row>
       </footer>

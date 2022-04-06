@@ -20,8 +20,8 @@ export default function WalletRoute() {
 
           {/*</Row>*/}
           {/*<Row>*/}
-          <PageTitle>My NFTs</PageTitle>
-          <Wallet />
+          <PageTitle>Connect Wallet Coming Soon...</PageTitle>
+          {/* <Wallet /> */}
           {/*</Row>*/}
         </Container>
       </main>
