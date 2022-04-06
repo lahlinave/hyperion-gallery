@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
   background-color:#212528;
 }
 
@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
   margin: 0;
   /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
   /*'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
@@ -29,7 +29,7 @@ body {
 
 html,
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 code {
@@ -62,26 +62,26 @@ code {
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 .Token-link{
   color: #000;
   text-decoration: none;
   font-size: 0.9rem;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 body, table, p, a, span, h1, h2, h3, h4, h5, h6, ul, button{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 button.btn{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 a.page-link{
-  color: rgb(156, 186, 213);
+  color: rgb(230, 230, 230);
 }
 a{
-  color: rgb(156, 186, 213);
+  color: rgb(230, 230, 230);
 }
 .Header-title-container{
   
@@ -91,23 +91,23 @@ a{
 
 .Header-title {
   font-size: 2rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lexend Mega', sans-serif;
 }
 .Header-subtitle{
   font-size: 1rem;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 .Gallery-item {
   margin-bottom: 20px;
   font-size: 12px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 
 .extra-large-logo{
   font-size: 2.5rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lexend Mega', sans-serif;
   padding-top: 10px;
 }
 
@@ -117,7 +117,7 @@ a{
 
 .footer-text{
   font-size: 0.7rem;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lexend Mega', sans-serif;
 }
 
 .shuffle-btn{
@@ -129,8 +129,4 @@ a{
 }
 .hover-blue:hover {
   color: #0d6efd;
-}
-
-.navbar-nav .nav-link a{
-  color: rgb(230, 230, 230);
 }

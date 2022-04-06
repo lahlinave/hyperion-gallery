@@ -6,7 +6,7 @@ import styles from "./header.module.css"
 export const Header = () => {
   return (<>
 
-    <Navbar bg="dark" expand="lg" fixed="bottom">
+    <Navbar bg="dark" expand="lg" fixed="bottom" className={styles['navbar-with-border']}>
       <Container>
 
         <Navbar.Brand href="/">
@@ -28,10 +28,32 @@ export const Header = () => {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Link href="/repop"><a className={'nav-link'}>RePop</a></Link>
-            <Link href="/gallery"><a className={'nav-link '+styles['light-nav-links']}>Gallery</a></Link>
-            <Link href="/wallet"><a className={'nav-link'}>My NFTs</a></Link>
-            <Link href="/about"><a className={'nav-link'}>About</a></Link>
+          <Nav.Item bsPrefix="light-nav-links">
+            <Nav.Link>
+            <Link href="/repop"><a>RePop</a></Link>
+            </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item bsPrefix="light-nav-links">
+            <Nav.Link>
+            <Link href="/gallery">Gallery</Link>
+            </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item bsPrefix="light-nav-links">
+            <Nav.Link>
+            <Link href="/wallet">My NFTs</Link>
+            </Nav.Link>
+            </Nav.Item>       
+
+            <Nav.Item bsPrefix="light-nav-links">
+            <Nav.Link>
+            <Link href="/about">About</Link>
+            </Nav.Link>
+            </Nav.Item>     
+            
+            
+            
           </Nav>
           <Nav className="justify-content-end">
             {/* <Navbar.Text style={{ padding: 10 }}>
