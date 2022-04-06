@@ -10,7 +10,7 @@ export default function Document() {
                 <meta name="twitter:creator" content="@stewbracken" />
                 <meta property="og:title" content="Hyperion" />
                 <meta property="og:description" content="Opening a portal to the next chapter of what NFTs are, Hyperion is generative art of a completely unique nature." />
-                <meta property="og:image" content="https://www.hyperionnft.art/twitter-share.jpg" />
+                <meta property="og:image" content="http://www.repopnft.art/twitter-share.jpeg" />
 
                 <meta
                     name="description"
