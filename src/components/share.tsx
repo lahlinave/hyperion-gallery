@@ -57,7 +57,7 @@ export const Share = ({account}:{account:string}) => {
       </Row>
       <Row>
       <Gallery tokenIds={tokenIds}/>
-        {!loading && tokenIds.length===0 &&<p>This account doesn't own any Hyperion tokens.</p>}
+        {!loading && tokenIds.length===0 &&<p>This account doesn't own any Repop tokens.</p>}
       </Row>
     </Container>
   )

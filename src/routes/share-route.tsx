@@ -18,7 +18,7 @@ export default function ShareRoute() {
   return (
     <>
       <Head>
-        <title>Check out my Hyperion NFTs</title>
+        <title>Check out my Repop NFTs</title>
       </Head>
       <Header />
       <main style={{ padding: "1rem 0" }}>

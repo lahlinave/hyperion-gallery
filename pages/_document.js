@@ -6,15 +6,15 @@ export default function Document() {
             <Head>
                 {/*<meta name="viewport" content="width=device-width, initial-scale=1"/>*/}
                 <meta name="twitter:card" content="summary" />
-                <meta name="twitter:site" content="@stewbracken" />
-                <meta name="twitter:creator" content="@stewbracken" />
-                <meta property="og:title" content="Hyperion" />
-                <meta property="og:description" content="Opening a portal to the next chapter of what NFTs are, Hyperion is generative art of a completely unique nature." />
-                <meta property="og:image" content="http://www.repopnft.art/twitter-share.jpeg" />
+                <meta name="twitter:site" content="@lahlinave" />
+                <meta name="twitter:creator" content="@lahlinave" />
+                <meta property="og:title" content="RePop" />
+                <meta property="og:description" content="tactility. connection. transmutation. repopulate your mind." />
+                <meta property="og:image" content="https://www.repopnft.art/twitter-share.jpeg" />
 
                 <meta
                     name="description"
-                    content="Hyperion NFT on Stargaze"
+                    content="RePop NFT on Stargaze"
                 />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={'true'}/>

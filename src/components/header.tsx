@@ -6,7 +6,7 @@ import styles from "./header.module.css"
 export const Header = () => {
   return (<>
 
-    <Navbar bg="black" expand="lg" fixed="bottom" className={styles['navbar-with-border']}>
+    <Navbar bg="black" variant="dark" expand='md' fixed="bottom" className={styles['navbar-with-border']}>
       <Container>
 
         <Navbar.Brand href="/">
