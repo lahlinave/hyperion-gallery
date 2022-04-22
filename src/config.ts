@@ -6,7 +6,7 @@ const configBase = {
     chainId: "castor-1",
     // Custom values here
     sg721: "stars1dy5xsnrkumgp8nfysx93vtyfkhnknpans6ehpn8vagm350ge4m4q4s3h5n", // UPDATE ME to your testnet contract
-    mintPriceStars: 2222, // UPDATE ME to Your Mint Price
+    mintPriceStars: 3333, // UPDATE ME to Your Mint Price
     totalNumMints: 111, // UPDATE ME to Your total mints
     testnet: true,
     soldOut: false,
@@ -18,11 +18,11 @@ const configBase = {
     restEndpoint: "",
     chainId: "stargaze-1",
     // Custom values here
-    sg721: "stars18a0pvw326fydfdat5tzyf4t8lhz0v6fyfaujpeg07fwqkygcxejsnp5fac", // UPDATE ME to your production contract
+    sg721: "stars14d9u3d2j7tfpj6tyfaft5a7szq2sc89dmtvfd8vfdhqct296qkeqeqqqtf", // UPDATE ME to your production contract
 
     // minter: "", // UPDATE ME to your production contract
-    mintPriceStars: 314, // UPDATE ME to Your Mint Price
-    totalNumMints: 1024, // UPDATE ME to Your total mints
+    mintPriceStars: 3333, // UPDATE ME to Your Mint Price
+    totalNumMints: 111, // UPDATE ME to Your total mints
 
     testnet: false,
     soldOut: true,
@@ -30,18 +30,18 @@ const configBase = {
   useTestnet: false, // Set to false on production
 
   defaults: {
-    ipfsMetadataCid: 'bafybeigpdi7agocjhum27khtlpxd7me6kprftmu6jrb4ki3qv3wt3glure',
-    ipfsImageCid: 'bafybeigqwoubjsr3jmxby6kjktqu3siob5fe5s5hdjwirxf3q4czmfhs3y',
-    ipfsLiveCid: 'bafybeieuikz4oqdv6t3tgeigtvsb5zat6vl2ngoeikexhrr7dm4fnswscm',
-    fileUrlThumbnails: "https://hyperion-images-stargaze.s3.us-west-1.amazonaws.com/thumbs-400",
+    ipfsMetadataCid: 'bafybeifa7ljdoj7ih773wuyug64oimfpghjoj7pap6vcjvs2ov5czfiboy',
+    ipfsImageCid: 'bafybeico4tdojaezk6mf27tvpb4wya4kl7zrgi5yuizgme2ina2z6ixmbm',
+    ipfsLiveCid: '',
+    fileUrlThumbnails: "-",
     fileUrlThumbnailsExtension: '.jpg',
-    fileUrlMetadata: "https://hyperion-images-stargaze.s3.us-west-1.amazonaws.com/metadata",
+    fileUrlMetadata: "-",
     fileUrlMetadataExtension: '.json',
-    fileUrlHighResImage: "https://hyperion-images-stargaze.s3.us-west-1.amazonaws.com/4k",
+    fileUrlHighResImage: "-",
     fileUrlHighResImageExtension: ".png",
-    fileUrlImage: "https://hyperion-images-stargaze.s3.us-west-1.amazonaws.com/images",
+    fileUrlImage: "https://ipfs.io/ipfs",
     fileUrlImageExtension: ".jpg",
-    liveViewUrl: "https://live.hyperionnft.art/id",
+    liveViewUrl: "-",
   }
 };
 

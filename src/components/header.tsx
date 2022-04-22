@@ -5,7 +5,6 @@ import styles from "./header.module.css"
 
 export const Header = () => {
   return (<>
-
     <Navbar bg="black" variant="dark" expand='md' fixed="bottom" className={styles['navbar-with-border']}>
       <Container>
 

@@ -28,7 +28,7 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
         <div>
           <PageTitle>#{tokenId}</PageTitle>
         </div>
-        <div>
+        {/* <div>
           <Pagination>
             <Pagination.Prev disabled={(tokenId === '1')} onClick={() => backPage()}/>
             <Pagination.Next disabled={(tokenId === numTokens.toString())} onClick={() => forwardPage()}/>
@@ -42,12 +42,13 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
             Download 4K Render
           </a> |{" "}
           <a href={token.live} rel="noreferrer">Live</a>
-        </div>
+        </div> */}
+        <>Come back soon</>
       </Col>
 
       <Col/>
     
-      <Row>
+      {/* <Row>
 
         <Col/>
         <Col sm={12} md={8} lg={5}>
@@ -56,7 +57,7 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
         </Col>
 
         <Col/>
-      </Row>
+      </Row> */}
     </>
 
 
