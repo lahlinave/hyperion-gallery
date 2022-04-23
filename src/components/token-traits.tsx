@@ -41,7 +41,7 @@ export const TokenTraits = ({ tokenId }: { tokenId: string }) => {
           return {...t, percent:truncate(percent,2), score: 1/value}
         }).sort((a,b) => b.percent - a.percent)
       }
-
+// @ts-ignore
         setTraits(traitsWithPercent)
         // @ts-ignore
         // const v = 1024-analysis.all[parseInt(tokenId)] as number + 1
