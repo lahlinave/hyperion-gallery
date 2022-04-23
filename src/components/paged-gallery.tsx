@@ -4,6 +4,7 @@ import { useQueryParam } from "../hooks/useQueryParam";
 import { useEffect, useMemo, useState } from "react";
 import { Gallery } from "./gallery";
 import analysis from "../utils/analysis.json";
+import config from "../config";
 
 export const PagedGallery = ({ totalNumTokens }: { totalNumTokens: number }) => {
   let [pageQp, setPageQp] = useQueryParam('page');
@@ -85,7 +86,8 @@ export const PagedGallery = ({ totalNumTokens }: { totalNumTokens: number }) => 
 
   return (
     <Container>
-      <Form>
+
+      {config.showRarity && <Form>
         <Form.Group className="mb-3" controlId="sortBy">
           <Form.Check
             type="switch"
@@ -95,7 +97,7 @@ export const PagedGallery = ({ totalNumTokens }: { totalNumTokens: number }) => 
             onClick={(e) => setPageSortQp(e.currentTarget.checked ? 'rank' : 'token')}
           />
         </Form.Group>
-      </Form>
+      </Form>}
       <Row>
         <Gallery tokenIds={tokenIds}/>
       </Row>

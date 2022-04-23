@@ -5,7 +5,7 @@ const configBase = {
     restEndpoint: "https://rest.castor-1.stargaze-apis.com/",
     chainId: "castor-1",
     // Custom values here
-    sg721: "stars1dy5xsnrkumgp8nfysx93vtyfkhnknpans6ehpn8vagm350ge4m4q4s3h5n", // UPDATE ME to your testnet contract
+    sg721: "", // UPDATE ME to your testnet contract
     mintPriceStars: 3333, // UPDATE ME to Your Mint Price
     totalNumMints: 111, // UPDATE ME to Your total mints
     testnet: true,
@@ -18,14 +18,14 @@ const configBase = {
     restEndpoint: "",
     chainId: "stargaze-1",
     // Custom values here
-    sg721: "stars14d9u3d2j7tfpj6tyfaft5a7szq2sc89dmtvfd8vfdhqct296qkeqeqqqtf", // UPDATE ME to your production contract
+    sg721: "stars12qltyf0vmpwlfn2g2ghd26uzjtfpmxu9f4fwjvgwhrk9je0xg73qwhvarf", // UPDATE ME to your production contract
 
     // minter: "", // UPDATE ME to your production contract
     mintPriceStars: 3333, // UPDATE ME to Your Mint Price
     totalNumMints: 111, // UPDATE ME to Your total mints
 
     testnet: false,
-    soldOut: true,
+    soldOut: false,
   },
   useTestnet: false, // Set to false on production
 
@@ -33,15 +33,16 @@ const configBase = {
     ipfsMetadataCid: 'bafybeifa7ljdoj7ih773wuyug64oimfpghjoj7pap6vcjvs2ov5czfiboy',
     ipfsImageCid: 'bafybeico4tdojaezk6mf27tvpb4wya4kl7zrgi5yuizgme2ina2z6ixmbm',
     ipfsLiveCid: '',
-    fileUrlThumbnails: "-",
+    fileUrlThumbnails: "/images/thumbs",
     fileUrlThumbnailsExtension: '.jpg',
-    fileUrlMetadata: "-",
+    fileUrlMetadata: "/metadata",
     fileUrlMetadataExtension: '.json',
-    fileUrlHighResImage: "-",
+    fileUrlHighResImage: "https://cloudflare-ipfs.com/ipfs/bafybeico4tdojaezk6mf27tvpb4wya4kl7zrgi5yuizgme2ina2z6ixmbm",
     fileUrlHighResImageExtension: ".png",
-    fileUrlImage: "https://ipfs.io/ipfs",
+    fileUrlImage: "/images/regular",
     fileUrlImageExtension: ".jpg",
     liveViewUrl: "-",
+    showRarity:false,
   }
 };
 

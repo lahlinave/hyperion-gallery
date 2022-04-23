@@ -53,6 +53,9 @@ export default function TokenOne() {
           </Container>
         </Container>
       </main>
+      <footer>
+        <br /><br /><br /><br /><br /><br />
+      </footer>
     </>
   );
 }

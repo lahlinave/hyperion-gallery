@@ -7,6 +7,7 @@ import { tokenDetails } from "./token";
 
 export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numTokens: number }) => {
   const token = tokenDetails(tokenId);
+
   const backPage = () => {
     const page = parseInt(tokenId);
     if (page === 1) return;
@@ -28,12 +29,13 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
         <div>
           <PageTitle>#{tokenId}</PageTitle>
         </div>
-        {/* <div>
+        <div>
           <Pagination>
             <Pagination.Prev disabled={(tokenId === '1')} onClick={() => backPage()}/>
             <Pagination.Next disabled={(tokenId === numTokens.toString())} onClick={() => forwardPage()}/>
           </Pagination>
         </div>
+      
         <div>
           <TokenFrame minHeight={size} tokenId={tokenId}/>
         </div>
@@ -41,23 +43,21 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
           <a href={token.imageUrl4k} download={true}>
             Download 4K Render
           </a> |{" "}
-          <a href={token.live} rel="noreferrer">Live</a>
-        </div> */}
-        <>Come back soon</>
+        </div>
+        {/* <>Come back soon</> */}
       </Col>
 
       <Col/>
     
-      {/* <Row>
+      <Row>
 
         <Col/>
         <Col sm={12} md={8} lg={5}>
           <hr/>
           <TokenTraits tokenId={tokenId}/>
         </Col>
-
         <Col/>
-      </Row> */}
+      </Row>
     </>
 
 
