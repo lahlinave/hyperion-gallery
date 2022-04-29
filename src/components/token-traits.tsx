@@ -64,7 +64,7 @@ export const TokenTraits = ({ tokenId }: { tokenId: string }) => {
       {!loading && error && <div>An error occurred, reload the page.</div>}
       {!loading && !error && <>
       <h3>{metadata.name}</h3>
-          <Table responsive>
+          <Table style={{color:'white'}} responsive>
               <thead>
               <tr>
                   <th>Trait Name</th>

@@ -42,7 +42,7 @@ export const TokenDetails = ({ tokenId, numTokens }: { tokenId: string; numToken
         <div className={'text-center'}>
           <a href={token.imageUrl4k} download={true}>
             Download 4K Render
-          </a> |{" "}
+          </a>
         </div>
         {/* <>Come back soon</> */}
       </Col>

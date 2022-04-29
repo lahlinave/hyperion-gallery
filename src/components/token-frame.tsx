@@ -4,18 +4,8 @@ import { tokenDetails } from "./token";
 export const TokenFrame = ({ tokenId, minHeight = 275 }: { tokenId: string; minHeight?: number }) => {
   const id = `tokenFrame${tokenId}`
   const token = tokenDetails(tokenId);
-  useEffect(()=>{
-    setTimeout(()=>{
-      const el=  document.getElementById(id);
-      if(el){
-        (el as HTMLIFrameElement).contentWindow?.focus()
-        // (el as HTMLIFrameElement)?.contentWindow?.document.body.focus();
-        
-      }
-    }, 250);
-  },[])
   return (
-    <img src={token.imageUrl} style={{ "minHeight": minHeight }} />
+  <img src={token.imageUrl} width={'100%'} />
     // <iframe id={id} allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"} allowFullScreen
     //         frameBorder={"0"}
     //         height={"100%"} sandbox={"allow-scripts"} src={token.live}
