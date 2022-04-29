@@ -25,7 +25,7 @@ const configBase = {
     totalNumMints: 111, // UPDATE ME to Your total mints
 
     testnet: false,
-    soldOut: false,
+    soldOut: true,
   },
   useTestnet: false, // Set to false on production
 
