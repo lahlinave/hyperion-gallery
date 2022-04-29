@@ -16,13 +16,13 @@ export default function WalletRoute() {
       <Header />
       <main style={{ padding: "1rem 0" }}>
         <Container>
-          {/*<Row>*/}
+          <Row>
 
-          {/*</Row>*/}
-          {/*<Row>*/}
-          <PageTitle>Connect Wallet Coming Soon...</PageTitle>
-          {/* <Wallet /> */}
-          {/*</Row>*/}
+          </Row>
+          <Row>
+          {/*<PageTitle>Connect Wallet Coming Soon...</PageTitle>*/}
+           <Wallet /> 
+          </Row>
         </Container>
       </main>
       <Footer />
