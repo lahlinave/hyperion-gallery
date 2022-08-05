@@ -3,7 +3,7 @@ import { Header } from "../components/header";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import { PageTitle } from "../components/page-title";
-import Head  from "next/head";
+import Head from "next/head";
 import { Footer } from "../components/footer";
 import React from "react";
 import config from "../config";
@@ -14,23 +14,25 @@ export default function AboutRoute() {
       <Head>
         <title>About</title>
       </Head>
-      <Header/>
+      <Header />
       <main style={{ padding: "1rem 0" }}>
         <Container>
-
-
           <Row>
-            <Col/>
+            <Col />
             <Col xs={10} md={8}>
-
               <PageTitle>About</PageTitle>
               <div>
                 <p>
-                learn about lahli navé and RePop soon…
+                  lahli is a multidimensional being of light in the form of a
+                  small human female. she is a visual artist, musician, dancer,
+                  poet, mystic, yogi, climber, healer, visionary who is
+                  passionate about crypto, the Cosmos ecosystem and a multichain
+                  future. She values innovation, creativity and life in all
+                  forms.
                 </p>
-                <p>
-                lahlinave@protonmail.com
-                </p>
+
+                <p>The Tao follows only itself.</p>
+                <p>lahlinave@protonmail.com</p>
               </div>
               {/* <div>
                 <p>Hyperion is a collection of 1024 unique NFTs each containing a 4K image render and a ‘live view’ real
@@ -115,7 +117,7 @@ export default function AboutRoute() {
                 </p>
               </div> */}
             </Col>
-            <Col/>
+            <Col />
           </Row>
         </Container>
       </main>
