@@ -48,16 +48,16 @@ export const Header = () => {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item bsPrefix="light-nav-links">
-                <Nav.Link>
-                  <a
-                    onClick={() =>
-                      router.push(
-                        "https://app.stargaze.zone/marketplace/stars12qltyf0vmpwlfn2g2ghd26uzjtfpmxu9f4fwjvgwhrk9je0xg73qwhvarf"
-                      )
-                    }
-                  >
-                    Buy
-                  </a>
+                <Nav.Link
+                  onClick={() =>
+                    router.push(
+                      "https://app.stargaze.zone/marketplace/stars12qltyf0vmpwlfn2g2ghd26uzjtfpmxu9f4fwjvgwhrk9je0xg73qwhvarf"
+                    )
+                  }
+                >
+                  <Link href="">
+                  Buy
+                  </Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item bsPrefix="light-nav-links">
